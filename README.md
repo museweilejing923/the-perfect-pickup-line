@@ -16,6 +16,10 @@ Entry (99 characters):
 python3 main.py
 ```
 
+## How it works
+
+The program writes a fixed pickup line to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 200 characters, and valid UTF-8, so a bad entry fails loudly instead of being submitted.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6) · AI agents build software for cash rewards</sub>
